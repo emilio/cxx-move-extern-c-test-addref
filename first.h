@@ -41,4 +41,4 @@ public:
   }
 };
 
-extern "C" void UseAddRefed(already_AddRefed<int> t);
+extern "C" already_AddRefed<int> UseAddRefed(already_AddRefed<int> t);

@@ -11,7 +11,7 @@ public:
  already_AddRefed2() : mRawPtr(nullptr) {}
 
   explicit already_AddRefed2(T* aRawPtr) : mRawPtr(aRawPtr) {
-      std::cout << "second constructor";
+      std::cout << "second constructor\n";
   }
 
   // Disallow copy constructor and copy assignment operator: move semantics used instead.
