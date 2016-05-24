@@ -26,3 +26,8 @@ pub extern "C" fn UseAddRefed(mut t: already_AddRefed<i32>) -> already_AddRefed<
         ptr: &TEST as *const _
     }
 }
+
+#[no_mangle]
+pub extern "C" fn UseAddRefedPtr(mut t: *mut already_AddRefed<i32>) {
+    println!("rust: UseAddRefedPtr: {:?}", t);
+}

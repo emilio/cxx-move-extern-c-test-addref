@@ -42,3 +42,4 @@ public:
 };
 
 extern "C" already_AddRefed<int> UseAddRefed(already_AddRefed<int> t);
+extern "C" void UseAddRefedPtr(already_AddRefed<int>* t);

@@ -21,7 +21,7 @@ rust: main.o rustlib/target/debug/librustlib.a
 	$(CXX) $< -o $@ -Lrustlib/target/debug -lrustlib -ldl -lpthread -lgcc_s -lc -lm -lrt -lutil
 
 libsecond.a: second.o
-	$(AR) crf $@ $<
+	$(AR) cr $@ $<
 
 .PHONY: rustlib/target/debug/librustlib.a
 rustlib/target/debug/librustlib.a:
