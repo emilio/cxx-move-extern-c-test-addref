@@ -1,2 +1,7 @@
 *.o
-final
+*.a
+cpp
+cpp-lib
+rust
+rustlib/target
+rustlib/Cargo.lock
