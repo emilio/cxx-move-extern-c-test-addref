@@ -2,6 +2,7 @@
 *.a
 cpp
 cpp-lib
+c-lib
 rust
 rustlib/target
 rustlib/Cargo.lock

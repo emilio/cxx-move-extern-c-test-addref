@@ -1,6 +1,6 @@
 #include "first.h"
 
-static int TEST = 0;
+static int TEST = 1000;
 
 int main() {
   auto addreffed = already_AddRefed<int>(&TEST);
